@@ -1,0 +1,278 @@
+    ::-webkit-scrollbar-track {
+        background: rgba(135, 135, 135, .1)
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: rgba(135, 135, 135, .4);
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #727272;
+    }
+
+    ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px
+    }
+
+    ::-webkit-scrollbar-corner {
+        background: unset
+    }
+
+    @font-face {
+        font-family: 'SourceCodePro';
+        src: url('./SourceCodePro.woff2') format('woff');
+        font-style: normal;
+    }
+
+    section.cover.show {
+        background: linear-gradient(to left bottom, hsl(110, 100%, 85%) 0%, hsl(37, 100%, 85%) 100%) !important;
+    }
+
+    .docsify-copy-code-button{
+        padding: .3rem .8rem !important;
+    }
+
+    .markdown-section pre {
+        padding: 0 .5rem;
+    }
+
+    .markdown-section pre code {
+        font-family: 'SourceCodePro' !important;
+        padding: 1em .5rem;
+    }
+
+    .cover-main,
+    body {
+        font-family: 'Noto Serif SC', serif !important;
+        font-size: 1rem;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    .cover-main img {
+        width: 300px;
+    }
+
+
+    .cover-main .anchor {
+        font-family: 'Niconne', cursive;
+    }
+
+    article#main img {
+        border-radius: 22px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    .markdown-section ul li {
+        margin: 1rem auto;
+        letter-spacing: 1px;
+    }
+
+    .markdown-section code {
+        font-weight: bold;
+        font-family: 'Noto Serif SC', serif !important;
+    }
+
+    .markdown-section blockquote p {
+        color: #fd7e14 !important;
+        background-color: rgba(253, 126, 20, .1) !important;
+        padding: 15px 20px;
+        border-radius: .25rem;
+    }
+
+    .markdown-section blockquote {
+        padding-left: 0;
+        border-left: 5px solid #fd7e14;
+        border-radius: .25rem;
+        font-size: 16px;
+    }
+
+    .markdown-section p.warn {
+        border-radius: 6px;
+        background: #ff1a391a !important;
+        color: #ff0023 !important;
+        position: relative;
+        padding-left: 1.5rem;
+        font-weight: bold;
+    }
+
+    .markdown-section p.warn::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 8px;
+        width: 5px;
+        height: 70%;
+        background: #ff6181;
+        box-shadow: 0px 0px 20px #ff002363;
+        border-radius: 1rem;
+        transform: translate(0, -50%);
+    }
+
+    .markdown-section p.warn code {
+        background: #ffffff;
+        border-radius: 5px;
+        color: #1573ff;
+    }
+
+    .docsify-copy-code-button,
+    .markdown-section pre {
+        border-radius: 10px !important;
+    }
+
+    .markdown-section pre>code {
+        color: #878787;
+    }
+
+    details summary {
+        user-select: none;
+        cursor: pointer;
+        background: #f6f6f6;
+        padding: 0.6rem 1rem;
+        border-radius: 10px;
+    }
+
+    .NewVersion {
+        padding: 0 10px;
+        background: #333;
+        color: #fadfa3;
+        display: inline-flex;
+        border-radius: 10px;
+        font-weight: bold;
+    }
+
+    .markdown-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .markdown-section h3 {
+        font-size: 1.2rem;
+    }
+
+    @media (max-width: 600px) {
+        .markdown-section {
+            max-width: 95%;
+        }
+
+        article#main img {
+            border-radius: 8px;
+        }
+
+        .markdown-section blockquote {
+            font-size: .9em;
+        }
+    }
+    
+    /* --- 1. 全局色彩和尺寸变量 --- */
+    :root {
+        --theme-color: #4A90E2;          /* 你的品牌主色 */
+        --theme-color-light: #e9f2fe;    /* 主色的极浅版本，用于背景 */
+        --text-color-primary: #2c3e50;    /* 主要文字，深灰色，比纯黑更柔和 */
+        --text-color-secondary: #7f8c8d; /* 次要文字/链接，中灰色 */
+        --border-color: #ecf0f1;         /* 边框/分割线颜色，非常浅的灰色 */
+        --sidebar-width: 280px;           /* 侧边栏宽度，可以微调 */
+    }
+    
+    /* --- 2. 侧边栏 (Sidebar) 优化 --- */
+    
+    /* 侧边栏整体，增加左右内边距，让内容不要贴边 */
+    .sidebar {
+        padding: 15px 10px;
+    }
+    
+    /* 所有列表项，收紧默认间距 */
+    .sidebar ul {
+        margin: 0;
+        padding: 0;
+    }
+    .sidebar li {
+        margin: 0 !important; /* 强制覆盖默认外边距 */
+    }
+    
+    /* 侧边栏链接 - 这是优化的核心 */
+    .sidebar ul li a {
+        display: block;
+        font-size: 14.5px;
+        color: var(--text-color-secondary);
+        padding: 8px 20px; /* 调整内边距，收紧行距 */
+        margin: 2px 0; /* 调整链接间的垂直间距 */
+        border-radius: 6px;
+        transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1); /* 更流畅的动画曲线 */
+        text-decoration: none; /* 去掉可能的下划线 */
+        border-left: 3px solid transparent; /* 左侧的指示条，默认透明 */
+    }
+    
+    /* 鼠标悬停在链接上 */
+    .sidebar ul li a:hover {
+        color: var(--text-color-primary);
+        background-color: var(--border-color); /* 悬停时用非常浅的灰色背景 */
+    }
+    
+    /* 当前激活的页面链接 - 关键的视觉反馈 */
+    .sidebar ul li a.active {
+        font-weight: 600; /* 字体加粗 */
+        color: var(--theme-color);
+        background-color: var(--theme-color-light); /* 使用主色的极浅版本作为背景 */
+        border-left-color: var(--theme-color); /* 左侧指示条变主题色 */
+    }
+    
+    /* 侧边栏的一级标题 (比如 "快速开始") */
+    .sidebar ul li > p {
+        font-size: 13px;
+        font-weight: 700;
+        margin: 20px 0 8px 20px;
+        color: var(--text-color-primary);
+        text-transform: uppercase; /* 字母大写，更有设计感 */
+        letter-spacing: 0.8px;
+        opacity: 0.8;
+    }
+    
+    /* --- 3. 顶部导航栏 (Navbar) 优化 --- */
+    
+    /* 顶部栏整体，去掉下划线，改用细微的阴影来区分层次 */
+    .app-nav {
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+        border-bottom: none; /* 去掉原来的下划线 */
+    }
+    
+    /* 顶部导航链接 */
+    .app-nav a {
+        color: var(--text-color-secondary);
+        font-weight: 500;
+        padding: 10px 15px;
+        margin-top: 5px; /* 增加一点上边距，让下划线有空间 */
+        position: relative; /* 为下划线动画做准备 */
+        text-decoration: none;
+    }
+    
+    /* 链接下方的伪元素，作为动画下划线 */
+    .app-nav a::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%; /* 从中间开始 */
+        width: 0;  /* 初始宽度为0 */
+        height: 2px;
+        background-color: var(--theme-color);
+        transition: all 0.3s ease;
+        transform: translateX(-50%); /* 确保从中间展开 */
+    }
+    
+    /* 鼠标悬停或当前激活的链接 */
+    .app-nav a:hover,
+    .app-nav a.active {
+        color: var(--text-color-primary);
+    }
+    
+    /* 鼠标悬停或激活时，下划线动画展开 */
+    .app-nav a:hover::after,
+    .app-nav a.active::after {
+        width: 80%; /* 下划线展开到宽度的80% */
+    }
+    
+    /* --- 4. 内容区域优化 --- */
+    .content {
+        padding-top: 60px; /* 确保内容不会被顶部导航栏遮挡 */
+    }
