@@ -2,7 +2,7 @@
 
 !> 因新版本限制，需要替换文件才可以解除时间限制，激活永久长期会员。
 
-!> 更新方方格子后，需要`再次替换文件`才可以重复激活！
+!> 更新方方格子后，需要`再次替换文件`才可以重复激活！建议关闭`自动更新`功能
 
 
 >已推出一键替换工具，下载后使用软件替换即可。    
@@ -18,7 +18,7 @@
 |文件名|下载链接| |
 |-|-| |
 |NewMem.dll|[下载地址](https://blog.tengzhou.ren/2024/ffcell/NewMem.zip)|优先下载这个|
-|备用NewMem.dll|[下载地址](https://blog.tengzhou.ren/2024/ffcell/install/NewMem.zip)|[特殊情况下载这个](instead?id=teshu)|
+|备用NewMem.dll|[下载地址](https://blog.tengzhou.ren/2024/ffcell/install/NewMem.zip)|[特殊情况下载这个](/use/instead?id=teshu)|
 
 
 - 1、下载完成后，复制下载下来的`NewMem.dll`文件
