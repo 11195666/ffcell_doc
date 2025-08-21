@@ -1,4 +1,4 @@
-# 获取电脑编号及激活步骤 {docsify-ignore-all}
+# 获取电脑编号及使用授权码激活会员步骤 {docsify-ignore-all}
 
 > 打开Excel或者WPS，在上方工具栏即可看到“方方格子”.
 
@@ -25,3 +25,4 @@
 - 只要这个皇冠是亮起来的，说明会员就在生效
 
 ![](https://blog.tengzhou.ren/2024/ffcell/install/QQ20241230-155933.png)
+
