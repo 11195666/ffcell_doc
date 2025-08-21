@@ -1,6 +1,4 @@
-* **首页**
-  * [授权系统](https://ffgz.xyz)
-  * [在线商城](https://m.jian.fan/)
+* [授权系统](https://ffgz.xyz)
 
 * **教程**
   * [下载教程](/use/download.md)
