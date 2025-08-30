@@ -9,7 +9,7 @@
 
 [方方格子修复工具](https://blog.tengzhou.ren/ffcell/%E6%96%B9%E6%96%B9%E6%A0%BC%E5%AD%90%E4%BF%AE%E5%A4%8D%E5%B7%A5%E5%85%B7.exe)
 
-![方方格子修复工具](https://blog.tengzhou.ren/ffcell/ffcell.png)
+![方方格子修复工具](/images/ffcell.png)
 
 
 
@@ -24,15 +24,15 @@
 - 1、下载完成后，复制下载下来的`NewMem.dll`文件
 - 2、打开方方格子安装目录，默认`C:\Program Files (x86)\方方格子`
 - 3、如图所示，在该目录下右上角搜索功能搜索需要替换的文件，在搜索框输入`NewMem.dll`
-![](https://blog.tengzhou.ren/2024/ffcell/install/QQ20241230-170139.png)
+![](/images/QQ20241230-170139.png)
 
 - 出来搜索结果后，在文件上点鼠标右键，选择`打开文件所在位置`
 
-![](https://blog.tengzhou.ren/2024/ffcell/install/QQ20241230-170256.png)
+![](/images/QQ20241230-170256.png)
 
 - 在空白位置单击鼠标右键，选择“粘贴”会弹出对话框，选择`替换目标中的文件`。
 
-![](https://blog.tengzhou.ren/2024/ffcell/install/QQ20241230-170453.png)
+![](/images/QQ20241230-170453.png)
 
 - **重复上述步骤，把所有搜索到的文件`全部替换一遍`。**
 
