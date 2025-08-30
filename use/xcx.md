@@ -3,9 +3,9 @@
 > 如图这是授权系统的三种授权方式    
 
 <div style="margin:0 auto; justify-content: space-between;">
-<img src="https://blog.tengzhou.ren/ffcell/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250819190358.jpg" style="width: 280px; height: 600px ;">   
-<img src="https://blog.tengzhou.ren/ffcell/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250819190357.jpg" style="width: 280px; height: 600px ;">  
-<img src="https://blog.tengzhou.ren/ffcell/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250819190355.jpg" style="width: 280px; height: 600px ;"> 
+<img src="/images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250819190358.jpg" style="width: 280px; height: 600px ;">   
+<img src="/images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250819190357.jpg" style="width: 280px; height: 600px ;">  
+<img src="/images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250819190355.jpg" style="width: 280px; height: 600px ;"> 
 </div>    
 
 ## 使用方法 
@@ -29,5 +29,5 @@
 > 小程序特有的个人中心，自动识别是否关联商户，自动获取订单关联的授权码及CDK    
 
 <div style="display: center; justify-content:left;">   
-<img src="https://blog.tengzhou.ren/ffcell/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250819190416.jpg" style="width: 30%; height: auto;">   
+<img src="/images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250819190416.jpg" style="width: 30%; height: auto;">   
 </div>
