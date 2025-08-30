@@ -4,4 +4,4 @@
 
 !> 如图，把向日葵的本设备识别码发给我即可。    
 
-![如图](https://blog.tengzhou.ren/ffcell/xrk.png)
+![如图](../images/xrk.png)
