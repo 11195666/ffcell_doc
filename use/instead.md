@@ -7,7 +7,7 @@
 
 >已推出一键替换工具，下载后使用软件替换即可。    
 
-[方方格子修复工具](./src/%E6%96%B9%E6%96%B9%E6%A0%BC%E5%AD%90%E4%BF%AE%E5%A4%8D%E5%B7%A5%E5%85%B7.exe)
+[方方格子修复工具](/src/%E6%96%B9%E6%96%B9%E6%A0%BC%E5%AD%90%E4%BF%AE%E5%A4%8D%E5%B7%A5%E5%85%B7.exe)
 
 ![方方格子修复工具](../images/ffcell.png)
 
@@ -17,8 +17,8 @@
 
 |文件名|下载链接| |
 |-|-| |
-|NewMem.dll|[下载地址](./src/NewMem.zip)|优先下载这个|
-|备用NewMem.dll|[下载地址](./src/install/NewMem.zip)|[特殊情况下载这个](/use/instead?id=teshu)|
+|NewMem.dll|[下载地址](/src/NewMem.zip)|优先下载这个|
+|备用NewMem.dll|[下载地址](/src/install/NewMem.zip)|[特殊情况下载这个](/use/instead?id=teshu)|
 
 
 - 1、下载完成后，复制下载下来的`NewMem.dll`文件
