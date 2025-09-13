@@ -11,6 +11,6 @@
 
 
     
-[方方格子修复工具](../src/%E6%96%B9%E6%96%B9%E6%A0%BC%E5%AD%90%E4%BF%AE%E5%A4%8D%E5%B7%A5%E5%85%B7.exe)
+[方方格子修复工具](https://github.com/11195666/ffcell_doc/blob/main/src/%E6%96%B9%E6%96%B9%E6%A0%BC%E5%AD%90%E4%BF%AE%E5%A4%8D%E5%B7%A5%E5%85%B7.exe))
 
 ![方方格子修复工具](../images/ffcell.png)
